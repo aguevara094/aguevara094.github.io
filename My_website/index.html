@@ -5,82 +5,75 @@
     <title>About Me</title>
   </head>
   <body>
-    <a href="index.html">Home</a>
     <a href="Portfolio.html">Portfolio</a>
-    <h1>This is Ariel's Home Page =)!</h1>
-    <img src="images/batman.jpg" height="400">
-  </body>
-</html>
-<a href="https://www.apple.com/iphone/">Phone</a>
-<!DOCTYPE html>
+    <!DOCTYPE html>
 <html>
+<DOCTYPE html>
+<html lang="en">
 <head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-div.container {
-    width: 100%;
-    border: 1px solid gray;
+* {
+    box-sizing: border-box;
 }
 
-header, footer {
-    padding: 1em;
-    color: white;
-    background-color: black;
-    clear: left;
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+    background-color: white;
+    padding: 20px;
     text-align: center;
 }
 
-nav {
-    float: left;
-    max-width: 160px;
-    margin: 0;
-    padding: 1em;
-}
 
-nav ul {
-    list-style-type: none;
-    padding: 0;
-}
-   
-nav ul a {
-    text-decoration: none;
-}
+</style>
+</head>
+<body>
 
-article {
-    margin-left: 170px;
-    border-left: 1px solid gray;
-    padding: 1em;
-    overflow: hidden;
+<div class="header">
+  <h1>Ariels website</h1>
+</div>
+<ul>
+  <li><a href="http://www.foxnews.com/">News</a></li>
+  <li><a href="https://www.youtube.com/watch?v=J9uSI0MeYNc">intrests</a></li>
+</ul>
+    <h1>This is Ariel's Home Page!</h1>
+    <!DOCTYPE html>
+<html>
+<head>
+<style>
+h1 {
+    text-shadow: 0 0 18px white;
 }
 </style>
 </head>
 <body>
 
-<div class="container">
+<h1>Exclusive Information</h1>
 
-<header>
-   <h1>About Me</h1>
-</header>
-  
-<nav>
-  <ul>
-    <li><a href="#">London</a></li>
-    <li><a href="#">Paris</a></li>
-    <li><a href="#">Tokyo</a></li>
-  </ul>
-</nav>
-
-<article>
-  <h1>About me</h1>
-  <p>me</p>
-  <p>.</p>
-</article>
-
-<footer>Copyright &copy; Me.com</footer>
-
-</div>
-
-</body>
+    <img src="images/giphy.gif" height="400">
+  </body>
 </html>
+<a href="https://youtube.com/">Youtube</a>
+<DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+    background-image: url("batman.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 200px;
+    background-color: black;
+}
+</style>
+</head>
+
 <!DOCTYPE html>
 <html>
 <body>
@@ -101,12 +94,112 @@ var map = new google.maps.Map(document.getElementById("map"), mapOptions);
 </script>
 
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
-<!--
-To use this code on your website, get a free API key from Google.
-Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
--->
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+    box-sizing: border-box;
+}
+video {
+    width: 100%;
+    height: auto;
+}
+.row:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+    width: 100%;
+}
+@media only screen and (min-width: 600px) {
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+html {
+    font-family: "Lucida Sans", sans-serif;
+}
+.header {
+    background-color: #9933cc;
+    color: #ffffff;
+    padding: 15px;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: #33b5e5;
+    color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.menu li:hover {
+    background-color: #0099cc;
+}
+.aside {
+    background-color: #33b5e5;
+    padding: 15px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.footer {
+    background-color: #0099cc;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+}
+</style>
+</head>
+<body>
 
-</body>
-</html>
+<div class="header">
+  <h1>About Me</h1>
+</div>
+
+<div class="row">
+
+<div class="col-5 col-s-5 menu">
+  <ul>
+ 
+
+
+
+
+
+
 
 
